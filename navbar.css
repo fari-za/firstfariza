@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+}
+.navbar{
+    background-color:rgba(48, 47, 47, 0.5);
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: rgb(167, 171, 206);
+    text-align: center;
+    text-decoration: none;
+    padding: 25px 45px;
+    color: white;
+    font-size: 200%;
+    font-style: italic;
+    padding-left: 70px;
+}
+.active{
+    background-color:rgb(207, 130, 130);
+    color: black;
+}
+.navbar a:hover:not(.active){
+    background-color:#ddd;
+    color: black;
+}
+#logo{
+    font-size:390%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: bisque;
+    float: right;
+    overflow:unset;
+}
