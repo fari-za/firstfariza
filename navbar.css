@@ -13,11 +13,11 @@
     color: rgb(167, 171, 206);
     text-align: center;
     text-decoration: none;
-    padding: 25px 45px;
+    padding: 10% 15%;
     color: white;
     font-size: 200%;
     font-style: italic;
-    padding-left: 70px;
+    padding-left: 4%;
 }
 .active{
     background-color:rgb(207, 130, 130);
